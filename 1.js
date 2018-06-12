@@ -2,7 +2,7 @@ function sortByString (s,t) {
   let hash = {}
   // create a hash table from the 't' string for quicker look up when sorting
   for (var i = 0; i < t.length; i++){
-    hash[t[i]] = i;
+    hash[t[i]] = i
   }
   //don't have to worry about collisions since each letter in T only appears once
 
